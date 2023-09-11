@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1</title>
+</head>
+<body style="background-color: bisque;">
+    <h1><center><b>KM Custom HTML Form Example Using AppleScript</b></center></h1>
+    <h3><center>(by JMichaelITX)</center></h3>
+    <center>
+    <table border="1px" style="background-color:bisque;">
+        <tr>
+            <th>Name:</th>
+            <td>
+                <form action="">
+                    <input type="text">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Email:</th>
+            <td>
+                <form action="">
+                    <input type="email">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Password:</th>
+            <td>
+                <form action="">
+                    <input type="password">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td><b>Approval Required</b><br>Click on the button or text to <br> check/uncheck</td>
+            <td>
+                <form action="">
+                    <input type="radio" name="choice" value="Choice A" checked>Choice A
+                    <br>
+                    <input type="radio" name="choice" value="Choice B">Choice B
+                    <br>
+                    <input type="radio" name="choice" value="Choice C">Choice C
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Popup Menu:</th>
+            <td>
+                <form action="">
+                    <select name="country">
+                        <option value="Texas -- TX">Texas -- TX</option>
+                        <option value="California">California</option>
+                        <option value="Ohio">Ohio</option>
+                    </select>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td><b>List</b><br>Setup Option: <br>
+            . Number of rows to dispaly <br>
+            . Allow Multi-select</td>
+            <td>
+                <form action="">
+                    <select name="States" id="" multiple>
+                        <option value="California -- CA">California -- CA</option>
+                        <option value="Colorado -- CO">Colorado -- CO</option>
+                        <option value="Connecticut -- CN">Connecticut -- CN</option>
+                        <option value="Dalifornia -- DA">Dalifornia -- DA</option>
+                        <option value="Dolorado -- DO">Dolorado -- DO</option>
+                    </select>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Feild Ignored by KM</th>
+            <td>
+                <form action="">
+                    <input type="text">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Text Area</th>
+            <td>
+                <form action="">
+                    <textarea name="Comments"cols="30" rows="10">Now is the time for all good men to come to the aod of their country</textarea>
+                </form>
+            </td>
+        </tr>
+    </table>
+    <br>
+        <form action="">
+            <input type="submit" name="Save" value="Save">
+            <input type="submit" name="Cancel" value="Cancel">
+            <input type="submit" name="Resize" value="Resize">
+        </form>
+</center>
+</body>
+</html>
